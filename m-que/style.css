@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Poppins:wght@700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    color:white;
+text-decoration: none;
+}
+
+body
+{
+ width: 100%;
+ height: 100vh;
+ background-color: rgb(0, 0, 0);  
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: "Poppins",sans-serif;
+}
+#vow
+{
+    top: 13%;
+    right: 20%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+.content 
+{
+    width: 900px;
+    height: 500px;
+    background: rgb(158, 124, 175);
+    border-radius: 20px;
+    box-shadow: 0 2px 40px rgb(86, 9, 138);
+}
+.heading
+{
+    width: 100%;
+    height: 90px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 2px 20px rgb(22, 22, 22);
+    
+}
+.questionbox
+{
+    width: 100%;
+    height: 150px;
+    background: rgb(255, 255, 255);
+}
+.optionbox
+{
+    width: 100%;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.76);
+}
+#welcomePage 
+{
+    margin-top: 100px;
+    text-align: center;
+}
+#welcomePage h1
+{
+    color: rgb(148, 204, 185);
+font-weight: 900;
+font-size: 50px;
+margin-bottom: 30px;
+}
+#welcomePage h2
+{
+ font-size: 30px;
+color: rgb(255, 255, 255);
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-bottom: 40px;
+}
+#welcomePage h3
+{
+    color: black;
+ font-size: 30px;
+ font-weight: 100;
+ font-family: 'Comfortaa',cursive;
+
+}
+#welcomePage h3 input
+{
+    
+    width: 180px;
+    border-bottom: 3px solid black;
+
+}
+#welcomePage h3 input[type=text]
+{
+    
+    background: none;
+    border-radius: 20px;
+ font-size: 30px;
+ padding: 10px;
+ border: none;
+ font-weight: 100;
+ font-family: 'Comfortaa',cursive;
+ margin-bottom: 40px;
+ padding-left: 25px;
+
+}
+#welcomePage h3 input[type=text]:focus
+{
+    color: black;
+   outline:none;
+}
+#submitbtn
+
+{
+text-align: center;
+} 
+#submitbtn button
+{
+    cursor: pointer;
+    margin-top: 30px;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    background: rgb(157, 96, 175);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: .3s;
+    border: none;
+}
+#submitbtn button:hover
+{
+    border: none;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    transform: scale(1.05);
+}
+h6
+{
+    color: rgb(204, 203, 207);
+}
